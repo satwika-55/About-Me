@@ -1,0 +1,40 @@
+/* src/index.css */
+.card {
+  border: 1px solid black;
+  background-color:rgb(233, 224, 212);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(81, 77, 77);
+  padding: 20px;
+  margin: 11px;
+  text-align: center;
+  max-width: 700px;
+  width: 405px;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;  /* Ensure cards align at the top */
+}
+.card:hover {
+  transform: scale(1.05);  /* Scale the card to 110% of its original size */
+  box-shadow: 10px 10px 15px rgb(30, 28, 32); /* Increase shadow */
+  transition-duration: 0.7s;
+}
+.card .card-image {
+  width: 220px;        /* Set a fixed width */
+  height: 220px;       /* Set a fixed height */
+  object-fit: cover;   /* Ensure image covers the container */
+  border-radius: 50%;  /* Make it a circle */
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  color:rgb(121, 105, 105);
+}
+.card .card-text{
+  font-size: 30px;
+  margin-top: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(71, 65, 65);
+}
